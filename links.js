@@ -2,8 +2,8 @@
 // The page renders them in order, top to bottom.
 window.LINKS = [
   {
-    name: "Example Tool",
-    url: "https://example.com",
-    description: "A short description of why this site is worth a look.",
+    name: "Kid Calculator",
+    url: "https://kidcalculator.georgemcintosh.com",
+    description: "Certificate examination online. Calculate your sha256, commonly used as a key id on open data systems",
   },
 ];
