@@ -31,8 +31,10 @@ python3 -m http.server
 ## Deployment
 
 Pushes to `main` are deployed to GitHub Pages by the workflow in
-[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml). The custom
-domain `tools.georgemcintosh.com` is set via the [`CNAME`](CNAME) file.
+[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml). The workflow
+enables Pages (using GitHub Actions as the source) automatically on its first
+run, so no manual Settings step is needed.
 
-> **One-time setup:** In the repository's **Settings → Pages**, set the
-> build source to **GitHub Actions**.
+The custom domain `tools.georgemcintosh.com` is set via the [`CNAME`](CNAME)
+file. Make sure DNS has a `CNAME` record for `tools` pointing at
+`georgecodes.github.io`.
